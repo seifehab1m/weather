@@ -1,0 +1,213 @@
+body
+{
+    background-color: #1e202b;
+    
+}
+nav
+{
+    background-color: #1e202b;
+}
+nav .logo-name h1
+{
+    padding-top: 10px;
+    font-size: 18px;
+}
+nav .logo-name h6
+{
+    font-size: 10px;
+}
+.navbar-nav  li
+{
+    margin: 0px 20px 0px 20px;
+    
+}
+.navbar-nav  li a
+{
+   
+    padding: 2px 15px 2px 15px !important;
+}
+.li-nav a
+{
+    border: 2px solid transparent;
+    border-radius: 25px;
+    color: white !important;
+}
+.li-home-nav
+{
+    border: 2px solid #0099CC;
+    border-radius: 25px;
+}
+
+.li-nav :hover
+{
+    border: 2px solid #0099CC;
+    border-radius: 25px;
+    color: #0099CC !important;
+}
+
+/* home section */
+.container-fluid
+{
+    grid-auto-rows: 1fr
+}
+.home
+{
+    
+    background-color: #1e202b;
+}
+
+.home .image
+{
+    background-image: url(../images/banner.png);
+    background-position: center center;
+    background-size: cover;
+    height: 50%;
+}
+.home .image button
+{
+    padding: 12px 35px 12px 35px;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    right: 15;
+    top: 1;
+    margin-top: 3px;
+    
+}
+.home .image i
+{
+    right:10;
+    top:50%;
+    cursor: pointer;
+}
+.search input
+{
+    padding: 16px;
+    background: #1e202b;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    color: white;
+}
+textarea:focus,input:focus
+{
+    outline: none;
+}
+
+.today
+{
+    background: #2a2a33;
+    border-top-left-radius: 25px;
+    margin-top: 50px;
+
+}
+.today .day
+{
+    padding: 10px;
+    background: #383844;
+    border-top-left-radius: 25px;
+
+}
+.day h6
+{
+    padding-left: 5px;
+    font-size: 14px;
+    color: #bfc1c8;
+}
+.today .weatherDetails
+{
+    padding-top: 40px;
+    padding-left: 20px;
+    border-bottom-left-radius: 25px;
+
+}
+.today .weatherDetails h4 
+{
+    color: #bfc1c8;
+ 
+}
+.today .weatherDetails h2
+{
+    font-size: 5.42857rem;
+    color: white;
+}
+.today .weatherNumber img
+{
+    
+    top: 50%;
+    width: 40%;
+    right: 0;
+    
+}
+.tomorrow
+{
+    background: #212129;
+    margin-top: 50px;
+
+}
+  .tomorrow .tomorrowDay 
+{
+    background: #27272e;
+    padding: 10px;
+}
+.tomorrow .tomorrowDay h6
+{
+  font-size: 14px;
+  color: #bfc1c8;
+}
+.tomorrow  img
+{
+    padding-top: 20px;
+}
+ .tomorrow .weatherDetails-tommorw
+{
+    padding-top: 0px;
+    padding-left: 20px;
+    
+    
+} 
+
+.tomorrow .weatherDetails-tommorw h2
+{
+  font-size: 25px;
+  color: white;
+}
+.tomorrow .weatherDetails-tommorw h4
+{
+  font-size: 20px;
+  color: #494a4d;
+
+}
+
+
+
+.after-tomorrow
+{
+    margin-top: 50px;
+    background: #2f2f3a;
+    border-top-right-radius: 25px;
+}
+.after-tomorrow .after-tomorrowDay h6
+{
+    color: #bfc1c8;
+}
+.after-tomorrow .after-tomorrowDay
+{
+    padding: 10px;
+    background: #383844;
+    border-top-right-radius: 25px;
+
+} 
+
+.after-tomorrow .weatherDetails-afterTommorw h2
+{
+  font-size: 25px;
+  color: white;
+}
+.after-tomorrow .weatherDetails-afterTommorw h4
+{
+  font-size: 20px;
+  color: #494a4d;
+}  
+.after-tomorrow  img
+{
+    padding-top: 20px;
+}

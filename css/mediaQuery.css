@@ -1,0 +1,24 @@
+@media all and (max-width:499px) {
+
+    
+    .today .weatherDetails h2
+{
+    font-size: 2.42857rem;
+    
+}
+}
+
+@media all and (max-width:767px) and (min-width: 500px) {
+   
+    .today .weatherDetails h2
+    {
+        font-size: 4.42857rem;
+      
+    }
+}
+
+@media all and (max-width:979px) and (min-width:768px) {
+    
+   
+    
+}

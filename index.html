@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaQuery.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg  p-4">
+        <div class="container">
+            <img src="images/logo.png" alt="">
+
+            <div class="logo-name text-white p-2">
+                <h1>Weather</h1>
+                <h6>tagline goes here</h6>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class=" navbar-nav ms-auto mb-2 mb-lg-0  ">
+                    <li class="nav-item li-home-nav ">
+                        <a class="nav-link active  text-primary" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item li-nav">
+                        <a class="nav-link active" aria-current="page" href="#">News</a>
+                    </li>
+                    <li class="nav-item li-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Live Cameras</a>
+                    </li>
+                    <li class="nav-item li-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item li-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="home">
+        <div class="image p-5">
+            <div class="container-fluid  p-5 ">
+                <div class=" search w-100 mt-1 position-relative">
+                    <input class="input-group  position-relative" placeholder="Find Your Location ..." type="text" id="search">
+                    <i class="fa-solid fa-magnifying-glass position-absolute fs-1 text-white translate-middle-y"></i>
+                    <!-- <button id="btnFind" type="button" class="btn btn-primary position-absolute ">Find</button> -->
+                </div>
+                <div class="row gx-0 "id="weatherTemp" >
+                    
+
+               
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
